@@ -1,0 +1,83 @@
+:root {
+ --sans: "IBM plex sans";
+ --serif:"IBM plex serif";
+ --black: #171321;
+ --dkblue: #0d314b;
+ --white: #f7f8fa;
+ --aqua: #86fbfb;
+--hotmag: #ff17e4;
+--magenta: #e310cb;
+--wblue:#353440;
+}
+html {
+    box-sizing: border-box;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }
+ body{
+  background-color: var(--black);
+
+ }
+  h1 {
+    text-align:center;
+    font-family:var(--serif);
+    color:var(--white);
+    }
+  h2{
+    font-family: var(--serif);
+    color:var(--white);
+  } 
+  p{
+   font-family:var(--serif);
+    font-size:1.3rem;
+    color:var(--white);
+  }
+  span{
+    color:var(--aqua);
+  }
+  
+ 
+  nav ul{
+    list-style-type:none;
+    font-family:var(--sans);
+    font-size:1.3rem;
+  }
+  a{
+    text-decoration: none;
+    color:var(--aqua);
+  }
+  a:hover{
+    color:var(--hotmag);
+    text-decoration: underline;
+  }
+  img{
+    width:30%;
+
+  }
+  .floatleft{
+    float:left;
+  margin: 0 1rem 1rem 0;
+   }
+  .about{
+    text-align: center;
+    margin:2rem;
+    padding:1.5rem;
+    background-color: var(--dkblue)
+  }
+  
+  .article{
+    margin-top:5rem;
+    
+  }
+   .story{
+    background-color: var(--dkblue);
+   }
+   .story:after {
+    content: "";
+    display: table;
+    clear: both;
+  }

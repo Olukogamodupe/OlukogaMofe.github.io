@@ -1,0 +1,58 @@
+:root {
+    --sans: "IBM plex sans";
+    --serif:"IBM plex serif";
+    --black: #171321;
+    --dkblue: #0d314b;
+    --white: #f7f8fa;
+    --aqua: #86fbfb;
+   --hotmag: #ff17e4;
+   --magenta: #e310cb;
+   --wblue:#353440;
+   }
+   html {
+       box-sizing: border-box;
+     }
+     
+     *,
+     *::before,
+     *::after {
+       box-sizing: inherit;
+     }
+     body{
+       background-color: #86fbfb;
+     }
+
+     h1, h2{
+         text-align: center;
+    
+     }
+     p{
+       font-size: 1.7rem;
+     }
+     a{
+       text-decoration: none;
+       color:var(--magenta);
+     }
+     a:hover{
+       color:var(--hotmag);
+       text-decoration: underline;
+     }
+     img{
+       width:20%;
+     }
+     .floatleft{
+      float:left;
+    margin: 0 1rem 1rem 0;
+     }
+     .story:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+    .contact{
+      text-align: center;
+    }
+
+
+     
+     
